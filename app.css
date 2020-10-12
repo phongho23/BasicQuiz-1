@@ -1,0 +1,119 @@
+/* Your styles should be mobile-first and responsive */
+
+/** 
+  * If you are unclear on how to utilize a mobile-first, responsive technique to write your CSS, here is an example: 
+  *
+  * https://github.com/andreacardybailey/responsive_example/blob/master/styles/responsive-base.css 
+  *
+*/
+
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
+  margin: 10px;
+  background: cover;
+  background-color: rgb(29, 28, 28);
+}
+
+header {
+  padding: 55px 10px 0 10px;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+}
+
+#nextQuestionButton {
+  display: none;
+}
+
+.question-score-field {
+  font-size: 20px;
+  font-weight: 500px;
+  color:white;
+  text-align: center;
+  list-style: none;
+}
+
+button {
+  text-align: center;
+  color: white;
+  margin-top:12px;
+  height: auto;
+  font-size: 20px;
+  font-weight: 400;
+  background: rgb(29, 28, 28);
+  border: 2;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-bottom: 0;
+  border-radius:3px;
+}
+
+.startScreen, fieldset {
+  margin: 55px auto 0 auto;
+  width:80%;
+  padding: 40px;
+  background: rgb(82, 83, 83);
+  border:2px solid rgb(235, 228, 228);
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+legend {
+  font-weight: 550;
+  font-size: 20px;
+}
+
+.questionsgenerated .question {
+  font-size: 20px;
+  margin-bottom: 20px;
+  padding: 0 2%;
+  font-weight: 550px;
+}
+
+.options ul {
+  text-align:left;
+  list-style: none;
+  margin:0;
+}
+
+label {
+  font-size:20px;
+}
+
+.correctAns {
+ background: green;
+ padding: 10px 20px;
+ margin: 5px 20px;
+ border:2px solid rgb(6, 216, 6);
+}
+
+.wrongAns {
+  background:rgb(226, 2, 2);
+  padding: 10px;
+  margin: 5px 20px;
+  border:2px solid rgb(255, 0, 0);
+}
+
+.questionsgenerated button {
+  float:left;
+}
+
+button:hover:enabled,
+button:focus:enabled{
+  background-color: rgb(82, 83, 83);
+  transition: background 0.1s;
+  -moz-transition: background 0.1s;
+  -o-transition: background 0.1s;
+  -webkit-transition: background 0.1s;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+
